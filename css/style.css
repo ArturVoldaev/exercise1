@@ -109,7 +109,6 @@ h1, h2, h3, h4, h5, h6 {
 .body {
   max-width: 1700px;
   margin: 0 auto;
-  background-color: aquamarine;
 }
 
 @media screen and (max-width: 1280px) {
@@ -925,6 +924,7 @@ h1, h2, h3, h4, h5, h6 {
   .about-us .about-us__img-conteiner {
     margin: 0 auto;
     width: 320px;
+    padding-top: 30px;
   }
 }
 
@@ -984,7 +984,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 600px) {
   .about-us .about-us__text-conteiner h3 {
-    margin: 0 auto;
+    margin: 20px auto;
   }
 }
 
@@ -1027,6 +1027,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 750px) {
   .about-us .about-us__text-conteiner p {
     width: 320px;
+    margin: 0;
   }
 }
 
@@ -1051,7 +1052,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 600px) {
   .about-us .about-us__text-conteiner button {
-    margin: 0 auto;
+    margin:0 auto 20px;
   }
 }
 
